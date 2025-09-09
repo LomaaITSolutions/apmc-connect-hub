@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import ServicesSection from "@/components/ServicesSection";
 import CMERegistration from "@/components/CMERegistration";
+import Chatbot from "@/components/Chatbot";
 
 const Index = () => {
   return (
@@ -10,6 +11,7 @@ const Index = () => {
       <Hero />
       <ServicesSection />
       <CMERegistration />
+      <Chatbot />
     </div>
   );
 };
